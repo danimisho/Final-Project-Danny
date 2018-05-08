@@ -1,0 +1,110 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+}
+img {
+	max-width:100%;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+
+}
+
+.site-container {
+  position: relative;
+	width: 100%;
+	margin: 0 auto;
+  min-height: 100vh;
+}
+
+
+.site-header {
+
+}
+.site-content {
+
+}
+
+.odo-box{
+  border: 5px black solid;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.first-box{
+  top: 10%;
+  left: 10%;
+}
+
+.second-box{
+  top: 10%;
+  right: 10%;
+}
+
+.third-box{
+  bottom: 10%;
+  left: 10%;
+}
+
+.fourth-box{
+  bottom: 10%;
+  right: 10%;
+}
+
+.site-footer {
+
+}
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
