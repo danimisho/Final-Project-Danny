@@ -16,6 +16,7 @@ Author: Your Name
 
 * {
      box-sizing: border-box;
+     transition: all 0.3s;
 }
 img, svg {
 	max-width:100%;
@@ -37,7 +38,7 @@ body{
 }
 
 .site-container {
-	width: 1000px;
+	width: 500px;
 	margin: 0 auto;
   min-height: 100vh;
 }
@@ -45,6 +46,14 @@ body{
 .svg{
   width: 100%;
   height: auto;
+}
+
+.expand{
+  radius: 1415;
+}
+
+.shrink{
+  radius: 0;
 }
 
 /******************************************
