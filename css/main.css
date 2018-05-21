@@ -23,11 +23,86 @@ img, svg {
 }
 
 /******************************************
-/* TYPOGRAPHY
+/* animations
 /*******************************************/
 
-/* add type styles here */
+@keyframes appear {
+  0% {
+    r: 0;
+  }
 
+  90% {
+    r: 150;
+  }
+
+  100% {
+    r: 145;
+  }
+}
+
+@keyframes path1 {
+  0% {cx:400;cy:200;}
+  8.333% {cx:400;cy:800;}
+  16.667% {cx:800;cy:800;}
+  25% {cx:800;cy:400;}
+  33.333% {cx:200;cy:400;}
+  41.667% {cx:200;cy:800;}
+  50% {cx:600;cy:800;}
+  58.333% {cx:600;cy:200;}
+  66.667% {cx:200;cy:200;}
+  75% {cx:200;cy:600;}
+  83.333% {cx:800;cy:600;}
+  91.667% {cx:800;cy:200;}
+  100% {cx:400;cy:200;}
+}
+
+@keyframes path2 {
+  0% {cx:800;cy:400;}
+  8.333% {cx:200;cy:400;}
+  16.667% {cx:200;cy:800;}
+  25% {cx:600;cy:800;}
+  33.333% {cx:600;cy:200;}
+  41.667% {cx:200;cy:200;}
+  50% {cx:200;cy:600;}
+  58.333% {cx:800;cy:600;}
+  66.667% {cx:800;cy:200;}
+  75% {cx:400;cy:200;}
+  83.333% {cx:400;cy:800;}
+  91.667% {cx:800;cy:800;}
+  100% {cx:800;cy:400;}
+}
+
+@keyframes path3 {
+  0% {cx:600;cy:800;}
+  8.333% {cx:600;cy:200;}
+  16.667% {cx:200;cy:200;}
+  25% {cx:200;cy:600;}
+  33.333% {cx:800;cy:600;}
+  41.667% {cx:800;cy:200;}
+  50% {cx:400;cy:200;}
+  58.333% {cx:400;cy:800;}
+  66.667% {cx:800;cy:800;}
+  75% {cx:800;cy:400;}
+  83.333% {cx:200;cy:400;}
+  91.667% {cx:200;cy:800;}
+  100% {cx:600;cy:800;}
+}
+
+@keyframes path4 {
+  0% {cx:200;cy:600;}
+  8.333% {cx:800;cy:600;}
+  16.667% {cx:800;cy:200;}
+  25% {cx:400;cy:200;}
+  33.333% {cx:400;cy:800;}
+  41.667% {cx:800;cy:800;}
+  50% {cx:800;cy:400;}
+  58.333% {cx:200;cy:400;}
+  66.667% {cx:200;cy:800;}
+  75% {cx:600;cy:800;}
+  83.333% {cx:600;cy:200;}
+  91.667% {cx:200;cy:200;}
+  100% {cx:200;cy:600;}
+}
 
 /******************************************
 /* LAYOUT
@@ -38,7 +113,7 @@ body{
 }
 
 .site-container {
-	width: 500px;
+	max-width: 800px;
 	margin: 0 auto;
   min-height: 100vh;
 }
@@ -48,12 +123,44 @@ body{
   height: auto;
 }
 
-.expand{
-  radius: 1415;
+.circle1{
+  cx: 400;
+  cy: 200;
+  animation: 1s ease 0s 1 appear, 30s linear 0s infinite path1;
+  r: 145;
+  stroke-width: 5;
+  fill: transparent;
+  stroke: black;
 }
 
-.shrink{
-  radius: 0;
+.circle2{
+  cx: 800;
+  cy: 400;
+  animation: 1s ease 0s 1 appear, 30s linear 0s infinite path2;
+  r: 145;
+  stroke-width: 5;
+  fill: transparent;
+  stroke: black;
+}
+
+.circle3{
+  cx: 600;
+  cy: 800;
+  animation: 1s ease 0s 1 appear, 30s linear 0s infinite path3;
+  r: 145;
+  stroke-width: 5;
+  fill: transparent;
+  stroke: black;
+}
+
+.circle4{
+  cx: 200;
+  cy: 600;
+  animation: 1s ease 0s 1 appear, 30s linear 0s infinite path4;
+  r: 145;
+  stroke-width: 5;
+  fill: transparent;
+  stroke: black;
 }
 
 /******************************************
