@@ -14,23 +14,37 @@
 		<main class="site-container" id="drawing">
 
 			<svg viewbox="0 0 1000 1000">
-				<circle class="circle1" id="circleOne"/>
-				<circle class="circle2" id="circleTwo"/>
-				<circle class="circle3" id="circleThree"/>
-				<circle class="circle4" id="circleFour"/>
+				<defs>
+				  <pattern id="img1" patternUnits="userSpaceOnUse" width="1000" height="1000">
+  				  <image xlink:href="https://picsum.photos/1000/1000?image=1084" x="0" y="0" width="1000" height="1000" />
+  				</pattern>
+
+					<pattern id="img2" patternUnits="userSpaceOnUse" width="1000" height="1000">
+  				  <image xlink:href="https://picsum.photos/1000/1000?image=1083" x="0" y="0" width="1000" height="1000" />
+  				</pattern>
+
+					<pattern id="img3" patternUnits="userSpaceOnUse" width="1000" height="1000">
+  				  <image xlink:href="https://picsum.photos/1000/1000?image=1082" x="0" y="0" width="1000" height="1000" />
+  				</pattern>
+
+					<pattern id="img4" patternUnits="userSpaceOnUse" width="1000" height="1000">
+  				  <image xlink:href="https://picsum.photos/1000/1000?image=1081" x="0" y="0" width="1000" height="1000" />
+  				</pattern>
+				</defs>
+
+				<circle class="circle1" id="circle1" fill="url(#img1)"/>
+				<circle class="circle2" id="circle2" fill="url(#img2)"/>
+				<circle class="circle3" id="circle3" fill="url(#img3)"/>
+				<circle class="circle4" id="circle4" fill="url(#img4)"/>
 
 			</svg>
 
 
 		</main><!-- .site-container -->
 
-		<!-- <script type="text/javascript" src="js/svg.min.js">
+		<script type="text/javascript" src="js/main.js">
 
-    </script>
+		</script>
 
-
-    <script type="text/javascript" src="js/main.js"> -->
-
-    </script>
 	</body>
 </html>

@@ -16,7 +16,7 @@ Author: Your Name
 
 * {
      box-sizing: border-box;
-     transition: all 0.3s;
+     transition: all 1s;
 }
 img, svg {
 	max-width:100%;
@@ -113,7 +113,7 @@ body{
 }
 
 .site-container {
-	max-width: 800px;
+	max-width: 700px;
 	margin: 0 auto;
   min-height: 100vh;
 }
@@ -129,7 +129,6 @@ body{
   animation: 1s ease 0s 1 appear, 30s linear 0s infinite path1;
   r: 145;
   stroke-width: 5;
-  fill: transparent;
   stroke: black;
 }
 
@@ -139,7 +138,6 @@ body{
   animation: 1s ease 0s 1 appear, 30s linear 0s infinite path2;
   r: 145;
   stroke-width: 5;
-  fill: transparent;
   stroke: black;
 }
 
@@ -149,7 +147,6 @@ body{
   animation: 1s ease 0s 1 appear, 30s linear 0s infinite path3;
   r: 145;
   stroke-width: 5;
-  fill: transparent;
   stroke: black;
 }
 
@@ -159,8 +156,15 @@ body{
   animation: 1s ease 0s 1 appear, 30s linear 0s infinite path4;
   r: 145;
   stroke-width: 5;
-  fill: transparent;
   stroke: black;
+}
+
+.expand{
+  r: 1500;
+}
+
+.shrink{
+  r: 0;
 }
 
 /******************************************
