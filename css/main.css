@@ -113,7 +113,7 @@ body{
 }
 
 .site-container {
-	max-width: 700px;
+	max-width: 70%;
 	margin: 0 auto;
   min-height: 100vh;
 }
@@ -128,8 +128,9 @@ body{
   cy: 200;
   animation: 1s ease 0s 1 appear, 30s linear 0s infinite path1;
   r: 145;
-  stroke-width: 5;
-  stroke: black;
+  fill: transparent;
+  stroke-width: 1;
+  stroke: magenta;
 }
 
 .circle2{
@@ -137,8 +138,9 @@ body{
   cy: 400;
   animation: 1s ease 0s 1 appear, 30s linear 0s infinite path2;
   r: 145;
-  stroke-width: 5;
-  stroke: black;
+  fill: transparent;
+  stroke-width: 1;
+  stroke: cyan;
 }
 
 .circle3{
@@ -146,8 +148,9 @@ body{
   cy: 800;
   animation: 1s ease 0s 1 appear, 30s linear 0s infinite path3;
   r: 145;
-  stroke-width: 5;
-  stroke: black;
+  fill: transparent;
+  stroke-width: 1;
+  stroke: yellow;
 }
 
 .circle4{
@@ -155,7 +158,8 @@ body{
   cy: 600;
   animation: 1s ease 0s 1 appear, 30s linear 0s infinite path4;
   r: 145;
-  stroke-width: 5;
+  fill: transparent;
+  stroke-width: 1;
   stroke: black;
 }
 
@@ -165,6 +169,16 @@ body{
 
 .shrink{
   r: 0;
+}
+
+.switchCircle{
+  r:0;
+  fill: red;
+  transition: all 1s 1s;
+}
+
+.switchExpand{
+  r: 50;
 }
 
 /******************************************
