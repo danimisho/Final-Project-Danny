@@ -103,20 +103,20 @@ SVG.on(document, 'DOMContentLoaded', function() {
 
   var music = draw.text("Music").move(200, 200).addClass("runAway music");
   var link1 = draw.text("Bafula").move(200, 300).linkTo('https://www.youtube.com/watch?v=zYKPlGHt3Vk').addClass("runAway link1");
-  var link2 = draw.text("Victims Athletic").move(200, 400).linkTo('https://www.youtube.com/watch?v=zYKPlGHt3Vk').addClass("runAway link2");
-  var link3 = draw.text("Solo work").move(200, 500).linkTo('https://www.youtube.com/watch?v=zYKPlGHt3Vk').addClass("runAway link3");
+  var link2 = draw.text("Victims Athletic").move(200, 400).linkTo('https://victimsathletic1.bandcamp.com/').addClass("runAway link2");
+  var link3 = draw.text("Solo work").move(200, 500).linkTo('https://soundcloud.com/danny-michaux').addClass("runAway link3");
 
   var contributions = draw.text("Contributed to:").move(200, 650).addClass("runAway contributions");
-  var link4 = draw.text("Maija Sofia").move(200, 750).linkTo('https://www.youtube.com/watch?v=zYKPlGHt3Vk').addClass("runAway link4");
-  var link5 = draw.text("UEA Sonic Arts Series").move(200, 850).linkTo('https://www.youtube.com/watch?v=zYKPlGHt3Vk').addClass("runAway link5");
+  var link4 = draw.text("Maija Sofia").move(200, 750).linkTo('https://maijasofia.bandcamp.com/album/the-sugar-sea').addClass("runAway link4");
+  var link5 = draw.text("UEA Sonic Arts Series").move(200, 850).linkTo('#').addClass("runAway link5");
 
   var writing = draw.text("Writing").move(700, 200).addClass("runAway writing");
-  var link6 = draw.text("Music Reviews for One Four Seven").move(700, 300).linkTo('https://www.youtube.com/watch?v=zYKPlGHt3Vk').addClass("runAway link6");
-  var link7 = draw.text("Article series for White Paint").move(700, 400).linkTo('https://www.youtube.com/watch?v=zYKPlGHt3Vk').addClass("runAway link7");
+  var link6 = draw.text("Music Reviews for One Four Seven").move(700, 300).linkTo('#').addClass("runAway link6");
+  var link7 = draw.text("Article series for White Paint").move(700, 400).linkTo('#').addClass("runAway link7");
 
   var video = draw.text("Video").move(700, 550).addClass("runAway video");
-  var link8 = draw.text("Twin Grips").move(700, 650).linkTo('https://www.youtube.com/watch?v=zYKPlGHt3Vk').addClass("runAway link8");
-  var link9 = draw.text("Bafula promo").move(700, 750).linkTo('https://www.youtube.com/watch?v=zYKPlGHt3Vk').addClass("runAway link9");
+  var link8 = draw.text("Twin Grips").move(700, 650).linkTo('https://www.youtube.com/watch?v=0cxvppsR0uQ&list=UUSBM9JcbTg0f-9auqRQ4keA').addClass("runAway link8");
+  var link9 = draw.text("Bafula promo").move(700, 750).linkTo('#').addClass("runAway link9");
 
   link1.on('mouseenter', ()=>{
     link1.animate(1000, '<>', 0).move((Math.random() * 800) + 100, (Math.random() * 800) + 100)
