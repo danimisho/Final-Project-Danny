@@ -140,13 +140,6 @@ a{
   font-size: 1.05em;
 }
 
-
-
-#background{
-  display: flex;
-  justify-content: center;
-}
-
 .header{
   color: black;
   width: 100%;
@@ -154,6 +147,11 @@ a{
   font-size: 3rem;
   text-align: center;
   padding: 1rem;
+}
+
+#background{
+  display: flex;
+  justify-content: center;
 }
 
 .backgroundAlternate{
